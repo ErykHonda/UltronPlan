@@ -1,0 +1,21 @@
+body
+{
+    font-family: sans-serif;
+    background-color: #180B29;
+    color: #FFFFFF;
+}
+
+#Top,#Jg,#Mid,#Bot
+{
+    margin: 10px;
+}
+
+#Top
+{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    gap: 50px 100px;
+    background-color: aqua;
+}
+
