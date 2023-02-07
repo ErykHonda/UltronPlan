@@ -21,6 +21,8 @@ body
 
 .Logowanie
 {
+    display: block;
+    width: 10rem;
     border-radius: 1rem;
     border: 0.1rem solid black;
     background-color:darkcyan

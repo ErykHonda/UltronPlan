@@ -1,7 +1,5 @@
 <?php
    session_start();
-   $con =new mysqli('localhost','root','','mysql');
-   $wynik = @$con->query(sprintf("SELECT Host FROM User GROUP BY Host ORDER BY Host DESC"));
 ?>
 
 <!DOCTYPE html>
@@ -21,15 +19,7 @@
             Zaloguj Się:
         </div>
         <div>
-            HOST:
-            <select class="Logowanie" name="hostName">
-            <?php
-                    while($row = mysqli_fetch_array($wynik))
-                    {
-                        echo "<option value='".$row['Host']."'>".$row['Host']."</option>"; 
-                    }
-                ?>
-            </select>
+            HOST: <input class="Logowanie" type="text" name="hostN">
         </div>
         <div>
             Login: <input class="Logowanie" type="text" name="login">
