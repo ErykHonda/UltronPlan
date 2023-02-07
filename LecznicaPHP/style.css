@@ -1,0 +1,36 @@
+body
+{
+    background-color: wheat;
+}
+
+#Okno-Main
+{
+    background-color: aqua;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border-radius: 2rem;
+    text-align: center;
+    padding-block:1rem ;
+}
+
+#Okno-Main > div
+{
+    height: 16.6%;
+}
+
+.Logowanie
+{
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    background-color:darkcyan
+}
+
+.Logowanie-Log-But
+{
+    height: 1.5rem;
+    width: 15rem;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    background-color:darkcyan
+}
